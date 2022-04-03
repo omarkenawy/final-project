@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699103968481",
+    "project_id": "tawselaa-f46ec",
+    "storage_bucket": "tawselaa-f46ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699103968481:android:3f966ef586ed1428bdcba0",
+        "android_client_info": {
+          "package_name": "com.example.tawselaa_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699103968481-tuvqr7cuvs47ooitl34r8s6prcj8mf8h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx6HI8yencB5ofmgKk-qV3hzV-atgkihY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699103968481-tuvqr7cuvs47ooitl34r8s6prcj8mf8h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
