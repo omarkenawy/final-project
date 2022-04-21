@@ -1,10 +1,11 @@
 
-import 'dart:html';
+import 'package:http/http.dart';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:tawselaa_app/screens/login_page.dart';
+import 'package:tawselaa_app/screens/verify_screen.dart';
 import 'package:tawselaa_app/widgets/password_input.dart';
 import 'package:tawselaa_app/widgets/text_input.dart';
 
@@ -159,16 +160,36 @@ class RegisterScreen extends StatelessWidget {
 
                       ],
                     ),
-                    RoundedButton(buttonText: 'Register'),
-                    SizedBox(width: 0.10,),
-                    TextButton(onPressed: (){
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => const LoginPage()),
-                      );
-                    },
-                      child: Text('Already Have an Account?'),
+                    //RoundedButton(buttonText: 'Register'),
+                    Container(
+                      width: double.infinity,
+                      color: Colors.black,
+                      child:MaterialButton(
+                        onPressed: (){
+                          Navigator.push(context,
+                            MaterialPageRoute(
+                              builder:(context)=>VerifyScreen(),
+                            ),
+                          );
+                        },
+                        height: 50,
+                        child:Text('Register',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        )
+                        ,
+                      )
                     ),
+                    SizedBox(width: 0.10,),
+                        TextButton(onPressed: (){
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) => LoginPage()),
+                          );
+                        },
+                          child: Text('Already Have an Account?'),
+                        ),
 
 
                   ],

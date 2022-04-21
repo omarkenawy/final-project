@@ -42,7 +42,7 @@ class FrogotScreen extends StatelessWidget {
               icon: Icon(Icons.arrow_back_ios,color: Colors.black,), onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => const LoginPage()),
+                MaterialPageRoute(builder: (context) =>  LoginPage()),
               );
             },
           ),

@@ -1,8 +1,6 @@
 
-import 'dart:html';
-
+import 'package:http/http.dart';
 import 'package:flutter/material.dart';
-
 import '../otp.dart';
 
 class VerifyScreen extends StatefulWidget {
@@ -17,8 +15,30 @@ class _VerifyScreenState extends State<VerifyScreen> {
   TextEditingController _controller = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Stack(
+        children: [
+        ShaderMask(
+          shaderCallback: (rect) => LinearGradient(
+         begin: Alignment.bottomCenter,
+         end: Alignment.center,
+         colors: [Colors.white, Colors.transparent],
+        ) .createShader(rect),
+           blendMode: BlendMode.color,
+           child: Container(
+          decoration: BoxDecoration(
+          image: DecorationImage(
+        image: AssetImage( 'images/carpoolllll.png'),
+         fit: BoxFit.cover,
+           colorFilter: ColorFilter.mode(Colors.white,
+          BlendMode.darken),
+          ),
+          ),
+           ),
+          ),
+
+      Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
         title: Text('Verification'),
       ),
       body: Column(
@@ -41,7 +61,7 @@ class _VerifyScreenState extends State<VerifyScreen> {
                         hintText: 'Phone Number',
                         prefix: Padding(
                           padding: EdgeInsets.all(4),
-                          child: Text('+1'),
+                          child: Text('+20'),
                         ),
                       ),
                       maxLength: 10,
@@ -57,7 +77,7 @@ class _VerifyScreenState extends State<VerifyScreen> {
             margin: EdgeInsets.all(10),
             width: double.infinity,
             child: FlatButton(
-              color: Colors.blue,
+              color: Colors.black,
               onPressed: (){
                 Navigator.push(
                     context,
@@ -70,6 +90,9 @@ class _VerifyScreenState extends State<VerifyScreen> {
           )
         ],
       ),
+    ),
+    ]
     );
+
   }
 }

@@ -1,15 +1,12 @@
-import 'dart:html';
-
+//import 'package:phone_auth_project/home.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:tawselaa_app/screens/forgot_screen.dart';
 import 'package:tawselaa_app/screens/login_page.dart';
 import 'package:tawselaa_app/screens/verify_screen.dart';
-
-
-
 import 'screens/register_screen.dart';
+import 'package:http/http.dart';
+// @dart=2.9
 
 
 void main()  async {
@@ -24,15 +21,7 @@ final Future<FirebaseApp> _fbApp = Firebase.initializeApp();
   @override
   Widget build(BuildContext context) {
     return MaterialApp(debugShowCheckedModeBanner: false,
-      title: 'Flutter LoginPage',
-      theme: ThemeData(
-        textTheme:
-        GoogleFonts.josefinSansTextTheme(Theme
-            .of(context)
-            .textTheme),
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+      //title: 'Flutter LoginPage',
       home: LoginPage(),
 
     );

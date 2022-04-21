@@ -1,4 +1,4 @@
-import 'dart:html';
+import 'package:http/http.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:tawselaa_app/Palette.dart';
@@ -8,11 +8,15 @@ import '../Palette.dart';
 import '../widgets/widgets.dart';
 import 'register_screen.dart';
 
+
 class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
 
+  get emailController => null;
+
   @override
   Widget build(BuildContext context) {
+    var passwordController;
     return Stack(
       children: [
           ShaderMask(
@@ -63,17 +67,47 @@ class LoginPage extends StatelessWidget {
                       children: [
                         Column(
                           children: [
-                            TextInput(
-                              icon: FontAwesomeIcons.solidEnvelope,
-                              hint: 'Email',
-                              inputType: TextInputType.emailAddress,
-                              inputAction: TextInputAction.next,
+                            TextFormField(
+                              controller: emailController,
+                              keyboardType: TextInputType.emailAddress,
+                              onFieldSubmitted: (String value) {
+                                print(value);
+                              },
+                              onChanged: (String value) {
+                                print(value);
+                              },
+                              decoration: InputDecoration(
+                                labelText: 'Email Address',
+                                prefixIcon: Icon(
+                                  Icons.email,
+                                ),
+                                border: OutlineInputBorder(),
+                              ),
                             ),
-                          PasswordInput(
-                           icon: FontAwesomeIcons.lock,
-                            hint: 'Password',
-                            inputAction: TextInputAction.done, inputType: TextInputType.none,
+                            SizedBox(
+                              height: 15.0,
                             ),
+                             TextFormField(
+                                controller: passwordController,
+                                keyboardType: TextInputType.visiblePassword,
+                                obscureText: true,
+                                onFieldSubmitted: (String value) {
+                                  print(value);
+                                },
+                                onChanged: (String value) {
+                                  print(value);
+                                },
+                                decoration: InputDecoration(
+                                  labelText: 'Password',
+                                  prefixIcon: Icon(
+                                    Icons.lock,
+                                  ),
+                                  suffixIcon: Icon(
+                                    Icons.remove_red_eye,
+                                  ),
+                                  border: OutlineInputBorder(),
+                                ),
+                              ),
                             Column(
                               children: [
                                 SizedBox(
