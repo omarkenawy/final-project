@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">699103968481-tuvqr7cuvs47ooitl34r8s6prcj8mf8h.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">699103968481</string>
+    <string name="google_api_key" translatable="false">AIzaSyDx6HI8yencB5ofmgKk-qV3hzV-atgkihY</string>
+    <string name="google_app_id" translatable="false">1:699103968481:android:3f966ef586ed1428bdcba0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDx6HI8yencB5ofmgKk-qV3hzV-atgkihY</string>
+    <string name="google_storage_bucket" translatable="false">tawselaa-f46ec.appspot.com</string>
+    <string name="project_id" translatable="false">tawselaa-f46ec</string>
+</resources>

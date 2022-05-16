@@ -2,7 +2,9 @@ import 'package:http/http.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:tawselaa_app/Palette.dart';
+import 'package:tawselaa_app/phone_auth.dart';
 import 'package:tawselaa_app/screens/forgot_screen.dart';
+import 'package:tawselaa_app/screens/home_page.dart';
 import 'package:tawselaa_app/widgets/Rounded_button.dart';
 import '../Palette.dart';
 import '../widgets/widgets.dart';
@@ -13,6 +15,8 @@ class LoginPage extends StatelessWidget {
   const LoginPage({Key? key}) : super(key: key);
 
   get emailController => null;
+
+  get phoneController => null;
 
   @override
   Widget build(BuildContext context) {
@@ -67,20 +71,14 @@ class LoginPage extends StatelessWidget {
                       children: [
                         Column(
                           children: [
-                            TextFormField(
-                              controller: emailController,
-                              keyboardType: TextInputType.emailAddress,
-                              onFieldSubmitted: (String value) {
-                                print(value);
-                              },
-                              onChanged: (String value) {
-                                print(value);
-                              },
-                              decoration: InputDecoration(
-                                labelText: 'Email Address',
-                                prefixIcon: Icon(
-                                  Icons.email,
-                                ),
+                            TextField(
+                              controller: phoneController,
+                              keyboardType: TextInputType.phone,
+                              decoration: InputDecoration
+                                (labelText: 'Phone number',
+                               prefixIcon: Icon(
+                                 Icons.phone,
+                               ) ,
                                 border: OutlineInputBorder(),
                               ),
                             ),
@@ -116,7 +114,7 @@ class LoginPage extends StatelessWidget {
                                 TextButton(onPressed: (){
                                 Navigator.push(
                                 context,
-                                MaterialPageRoute(builder: (context) => const FrogotScreen()),
+                                MaterialPageRoute(builder: (context) => const PhoneAuth()),
                                 );
                                 },
                                   child: Text('Forgot password?',style: TextStyle(
@@ -138,7 +136,12 @@ class LoginPage extends StatelessWidget {
                                 width: double.infinity,
                                 color: Colors.black,
                                 height: 40,
-                                child: MaterialButton(onPressed: (){},
+                                child: MaterialButton(onPressed: (){
+                                  Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => HomePage()),
+                                  );
+                                  },
                                 child: Text('LOGIN',
                                 style: TextStyle(
                                   color: Colors.white,),
@@ -146,7 +149,7 @@ class LoginPage extends StatelessWidget {
                                 ),
                               ),
                               SizedBox(
-                                height: 80,
+                                height: 50,
                               ),
                               Container(
                                decoration: BoxDecoration(
@@ -162,17 +165,20 @@ class LoginPage extends StatelessWidget {
                                   Text(
                                     'Don\'t have an account?',
                                     style: TextStyle(
-                                      fontSize: 22,
+                                      fontSize: 14,
                                       color: Colors.white,
                                     ),
                                   ),
                                   TextButton(onPressed: (){
                                     Navigator.push(
                                         context,
-                                        MaterialPageRoute(builder: (context) => const RegisterScreen()),
+                                        MaterialPageRoute(builder: (context) => RegisterScreen()),
                                     );
                                   },
-                                    child: Text('Register Now'),
+                                    child: Text('Register Now',
+                                    style: TextStyle(
+                                      fontSize:13
+                                    ),),
                                   ),
                                 ],
                               )
