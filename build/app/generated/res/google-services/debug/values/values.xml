@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">699103968481-tuvqr7cuvs47ooitl34r8s6prcj8mf8h.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">699103968481</string>
-    <string name="google_api_key" translatable="false">AIzaSyDx6HI8yencB5ofmgKk-qV3hzV-atgkihY</string>
-    <string name="google_app_id" translatable="false">1:699103968481:android:3f966ef586ed1428bdcba0</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDx6HI8yencB5ofmgKk-qV3hzV-atgkihY</string>
-    <string name="google_storage_bucket" translatable="false">tawselaa-f46ec.appspot.com</string>
-    <string name="project_id" translatable="false">tawselaa-f46ec</string>
+    <string name="default_web_client_id" translatable="false">110379583058-8m62e13ce4r53re9ci6r9q7r7kpllqo9.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">110379583058</string>
+    <string name="google_api_key" translatable="false">AIzaSyBtm4PSnSb7bdq8kqicYmkjo9enhCYC5YA</string>
+    <string name="google_app_id" translatable="false">1:110379583058:android:ed7a1cf70f7af40e25c18b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBtm4PSnSb7bdq8kqicYmkjo9enhCYC5YA</string>
+    <string name="google_storage_bucket" translatable="false">tawselaa-b9522.appspot.com</string>
+    <string name="project_id" translatable="false">tawselaa-b9522</string>
 </resources>

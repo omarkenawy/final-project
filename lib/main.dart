@@ -4,8 +4,11 @@ import 'package:flutter/material.dart';
 import 'package:tawselaa_app/screens/forgot_screen.dart';
 import 'package:tawselaa_app/screens/home_page.dart';
 import 'package:tawselaa_app/screens/login_page.dart';
+import 'package:tawselaa_app/screens/map_screen.dart';
 import 'screens/register_screen.dart';
 import 'package:http/http.dart';
+import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:location/location.dart';
 // @dart=2.9
 
  Future<void> main()  async {
@@ -22,7 +25,7 @@ final Future<FirebaseApp> _fbApp = Firebase.initializeApp();
   Widget build(BuildContext context) {
     return MaterialApp(debugShowCheckedModeBanner: false,
       //title: 'Flutter LoginPage',
-      home: LoginPage(),
+      home:LoginPage(),
 
     );
 

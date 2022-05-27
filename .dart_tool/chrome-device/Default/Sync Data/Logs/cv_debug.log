@@ -1,0 +1,16 @@
+{"logTime": "0524/184544", "correlationVector":"VH8t7RAUhXOt1m6c/ohnFl.0","action":"FeedSettingFetch_homeCloud", "result":"0", "context":{}}
+{"logTime": "0524/184546", "correlationVector":"lz+O1m1aBD2q3aT5jToYOZ.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"48F630A6-CB1B-4CC7-86AF-0F6627234B58|106", "server":"AM3PEPF0000098F"}}
+{"logTime": "0524/184546", "correlationVector":"ZVvvnhOoyAiFC5e+dqur6c.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"48F630A6-CB1B-4CC7-86AF-0F6627234B58|106", "server":"AM3PEPF0000098F"}}
+{"logTime": "0524/184546", "correlationVector":"lz+O1m1aBD2q3aT5jToYOZ","action":"Initial GetUpdates", "result":""}
+{"logTime": "0524/184546", "correlationVector":"lz+O1m1aBD2q3aT5jToYOZ.2","action":"GetUpdates Response", "result":"SERVER_MORE_TO_DOWNLOAD"}
+{"logTime": "0524/184546", "correlationVector":"ZVvvnhOoyAiFC5e+dqur6c","action":"Initial GetUpdates", "result":""}
+{"logTime": "0524/184547", "correlationVector":"ZVvvnhOoyAiFC5e+dqur6c.2","action":"GetUpdates Response", "result":"SYNCER_OK"}
+{"logTime": "0524/184547", "correlationVector":"7oyY/xK4D1qHvEPtI0M71U","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"", "server":""}}
+{"logTime": "0524/184547", "correlationVector":"eq/WjOsvJCX4/ix/O2jiTP","action":"Initial GetUpdates", "result":""}
+{"logTime": "0524/184547", "correlationVector":"eq/WjOsvJCX4/ix/O2jiTP.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"48F630A6-CB1B-4CC7-86AF-0F6627234B58|106", "server":"AM3PEPF0000098F"}}
+{"logTime": "0524/184547", "correlationVector":"eq/WjOsvJCX4/ix/O2jiTP.2","action":"GetUpdates Response", "result":"SERVER_MORE_TO_DOWNLOAD"}
+{"logTime": "0524/184547", "correlationVector":"MqWYxm6gdo6zyzRJPv0ukH","action":"Initial GetUpdates", "result":""}
+{"logTime": "0524/184547", "correlationVector":"MqWYxm6gdo6zyzRJPv0ukH.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"48F630A6-CB1B-4CC7-86AF-0F6627234B58|106", "server":"AM3PEPF0000098F"}}
+{"logTime": "0524/184547", "correlationVector":"MqWYxm6gdo6zyzRJPv0ukH.2","action":"GetUpdates Response", "result":"SYNCER_OK"}
+{"logTime": "0524/184547", "correlationVector":"HcF/4FQVN4p5HZC03EWPXH","action":"Initial GetUpdates", "result":""}
+{"logTime": "0524/184548", "correlationVector":"HcF/4FQVN4p5HZC03EWPXH","action":"SyncServerConnectionManagerRequest", "result":"CONNECTION_UNAVAILABLE", "context":{"error_type":"net_error_code", "error_value":"-3"}}

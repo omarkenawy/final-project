@@ -25,12 +25,6 @@ uses-sdk
 INJECTED from C:\src\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-3.1.11\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\src\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-3.1.11\android\src\main\AndroidManifest.xml
 INJECTED from C:\src\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-3.1.11\android\src\main\AndroidManifest.xml
-INJECTED from C:\src\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-3.1.11\android\src\main\AndroidManifest.xml
-INJECTED from C:\src\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-3.1.11\android\src\main\AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from C:\src\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-3.1.11\android\src\main\AndroidManifest.xml
-		ADDED from C:\src\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-3.1.11\android\src\main\AndroidManifest.xml
-		INJECTED from C:\src\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-3.1.11\android\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\src\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-3.1.11\android\src\main\AndroidManifest.xml
 		ADDED from C:\src\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-3.1.11\android\src\main\AndroidManifest.xml

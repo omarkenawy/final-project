@@ -124,16 +124,16 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
-    <string name="default_web_client_id" translatable="false">699103968481-tuvqr7cuvs47ooitl34r8s6prcj8mf8h.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">110379583058-8m62e13ce4r53re9ci6r9q7r7kpllqo9.apps.googleusercontent.com</string>
     <string name="fallback_menu_item_copy_link">Copy link</string>
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
-    <string name="gcm_defaultSenderId" translatable="false">699103968481</string>
-    <string name="google_api_key" translatable="false">AIzaSyDx6HI8yencB5ofmgKk-qV3hzV-atgkihY</string>
-    <string name="google_app_id" translatable="false">1:699103968481:android:3f966ef586ed1428bdcba0</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDx6HI8yencB5ofmgKk-qV3hzV-atgkihY</string>
-    <string name="google_storage_bucket" translatable="false">tawselaa-f46ec.appspot.com</string>
-    <string name="project_id" translatable="false">tawselaa-f46ec</string>
+    <string name="gcm_defaultSenderId" translatable="false">110379583058</string>
+    <string name="google_api_key" translatable="false">AIzaSyBtm4PSnSb7bdq8kqicYmkjo9enhCYC5YA</string>
+    <string name="google_app_id" translatable="false">1:110379583058:android:ed7a1cf70f7af40e25c18b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBtm4PSnSb7bdq8kqicYmkjo9enhCYC5YA</string>
+    <string name="google_storage_bucket" translatable="false">tawselaa-b9522.appspot.com</string>
+    <string name="project_id" translatable="false">tawselaa-b9522</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <!-- Show a splash screen on the activity. Automatically removed when
@@ -377,6 +377,10 @@
 <attr format="float" name="latLngBoundsNorthEastLatitude"/>
 
 <attr format="float" name="latLngBoundsNorthEastLongitude"/>
+
+<attr format="color" name="backgroundColor"/>
+
+<attr format="string" name="mapId"/>
 </declare-styleable>
     <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
 <enum name="standard" value="0"/>

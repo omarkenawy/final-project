@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:tawselaa_app/screens/home_page.dart';
 import 'package:tawselaa_app/screens/login_page.dart';
+import 'package:tawselaa_app/screens/map_screen.dart';
 
 class PhoneAuth extends StatefulWidget {
   const PhoneAuth({Key? key}) : super(key: key);
@@ -96,7 +97,7 @@ class _LoginWithPhoneState extends State<PhoneAuth> {
         await auth.signInWithCredential(credential).then((value) {
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => HomePage()),
+            MaterialPageRoute(builder: (context) => MapScreen()),
           );
         });
       },
@@ -121,7 +122,7 @@ class _LoginWithPhoneState extends State<PhoneAuth> {
     await auth.signInWithCredential(credential).then((value) {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => HomePage()),
+        MaterialPageRoute(builder: (context) => MapScreen()),
       );
     },
     );

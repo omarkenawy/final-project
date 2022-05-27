@@ -4,17 +4,7 @@
             "outputFile": "C:\\Users\\S  K  Y\\StudioProjects\\Tawselaa_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt\\values-pt.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\S  K  Y\\.gradle\\caches\\transforms-3\\5e684addddbab86112c3e964c66da089\\transformed\\browser-1.2.0\\res\\values-pt\\values-pt.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,170,269,381",
-                        "endColumns": "114,98,111,104",
-                        "endOffsets": "165,264,376,481"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\S  K  Y\\.gradle\\caches\\transforms-3\\cd836cbc527c814bb2c85a5053c8c8aa\\transformed\\core-1.6.0\\res\\values-pt\\values-pt.xml",
+                    "source": "C:\\Users\\S  K  Y\\.gradle\\caches\\transforms-3\\2a964615665d1601389023ba94d21334\\transformed\\core-1.6.0\\res\\values-pt\\values-pt.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "486",
                         "endColumns": "100",
                         "endOffsets": "582"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\S  K  Y\\.gradle\\caches\\transforms-3\\20c0c3c80f6743ba7c94da43345f2b3d\\transformed\\browser-1.2.0\\res\\values-pt\\values-pt.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,170,269,381",
+                        "endColumns": "114,98,111,104",
+                        "endOffsets": "165,264,376,481"
                     }
                 }
             ]
