@@ -227,10 +227,6 @@ class RegisterScreen extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
-                          Row(children:[
-
-                        ],
-                      ),
                       //RoundedButton(buttonText: 'Register'),
                       Container(
                         width: double.infinity,

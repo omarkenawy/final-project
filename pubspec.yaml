@@ -34,7 +34,7 @@ dependencies:
   firebase_database: ^9.0.8
   firebase_auth: ^3.3.15
   pinput: ^0.2.6
-  uuid: ^2.0.1
+  uuid: ^3.0.6
   cloud_firestore: ^3.1.11
   http: ^0.13.4
   dio: ^4.0.0
