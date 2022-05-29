@@ -36,13 +36,17 @@ dependencies:
   pinput: ^0.2.6
   uuid: ^3.0.6
   cloud_firestore: ^3.1.11
-  http: ^0.13.4
   dio: ^4.0.0
-  flutter_polyline_points: ^0.2.6
   google_maps_flutter: ^2.1.5
   intl_phone_field: ^2.0.0
   otp_text_field: ^1.1.1
   location: ^2.3.5
+  geolocator: ^8.2.1
+  google_maps_webservice: ^0.0.19
+  http: ^0.13.4
+  flutter_polyline_points: ^1.0.0
+  geocoding: ^2.0.4
+
  
 
 

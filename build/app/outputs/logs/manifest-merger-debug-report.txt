@@ -9,6 +9,8 @@ MERGED from [:cloud_firestore] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\buil
 MERGED from [:cloud_firestore] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:19
+MERGED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-15:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\e60442ec445fe93a922ceb07009f2fc0\jetified-firebase-analytics-ktx-20.1.2\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-analytics-ktx:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\e60442ec445fe93a922ceb07009f2fc0\jetified-firebase-analytics-ktx-20.1.2\AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.1.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\d39437da861272e4308a6bce0748c59c\jetified-firebase-common-ktx-20.1.0\AndroidManifest.xml:11:5-19:19
@@ -33,18 +35,18 @@ MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\S  K  Y
 MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\8b06b9d2c3e5b93dcf33c17d72bc9474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
 MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\b1ec891a435378ce74c8fb9a7505dbd0\jetified-firebase-common-20.1.0\AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\b1ec891a435378ce74c8fb9a7505dbd0\jetified-firebase-common-20.1.0\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\53393b7c2e4d48b9a98f5a2885ec8528\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\53393b7c2e4d48b9a98f5a2885ec8528\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\01fc92f2fd45fc4912dc613752d32303\jetified-play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\01fc92f2fd45fc4912dc613752d32303\jetified-play-services-maps-18.0.2\AndroidManifest.xml:36:5-42:19
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\bcc3a7ba7e221e870da2cf0bd22aca43\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\bcc3a7ba7e221e870da2cf0bd22aca43\jetified-play-services-location-16.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\80af1fbce186e6161c1a0e8ec66a25d9\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\80af1fbce186e6161c1a0e8ec66a25d9\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\7ee9a11f2af575e267f03380bcd149d2\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\7ee9a11f2af575e267f03380bcd149d2\jetified-play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\61348e29f2396834c1388bd9c78db9af\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\61348e29f2396834c1388bd9c78db9af\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\93e9b110ef55e8a754c36e484c265a39\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\93e9b110ef55e8a754c36e484c265a39\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\6a2d46f1096b7ca140653d8cb2e54c1c\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\6a2d46f1096b7ca140653d8cb2e54c1c\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\bdcd28a220708f27883c1a3f2a493525\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\bdcd28a220708f27883c1a3f2a493525\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:28:5-44:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\7d49406f3547ce7e767b480711707782\jetified-play-services-measurement-sdk-20.1.2\AndroidManifest.xml:22:5-23:19
@@ -81,6 +83,8 @@ MERGED from [:cloud_firestore] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\buil
 MERGED from [:firebase_core] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:google_maps_flutter] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\google_maps_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [:geocoding] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geocoding\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:location] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\04a84e6149302d841409f6a6701bc4d1\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics-ktx:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\e60442ec445fe93a922ceb07009f2fc0\jetified-firebase-analytics-ktx-20.1.2\AndroidManifest.xml:2:1-17:12
@@ -97,15 +101,15 @@ MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.0-beta06] C:\Use
 MERGED from [com.google.android.gms:play-services-measurement-api:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\994080114db0d2207197956a82eb7e11\jetified-play-services-measurement-api-20.1.2\AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\8b06b9d2c3e5b93dcf33c17d72bc9474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\b1ec891a435378ce74c8fb9a7505dbd0\jetified-firebase-common-20.1.0\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\53393b7c2e4d48b9a98f5a2885ec8528\jetified-play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\01fc92f2fd45fc4912dc613752d32303\jetified-play-services-maps-18.0.2\AndroidManifest.xml:17:1-44:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\bcc3a7ba7e221e870da2cf0bd22aca43\jetified-play-services-location-16.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\76b4e711366a212bd004c70187e8a175\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\80af1fbce186e6161c1a0e8ec66a25d9\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\a3d633f7433cb99853402368733ce730\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\7ee9a11f2af575e267f03380bcd149d2\jetified-play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\1d3d810eb212e3f3eb7f23810298545f\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:15:1-23:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\61348e29f2396834c1388bd9c78db9af\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\93e9b110ef55e8a754c36e484c265a39\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\6a2d46f1096b7ca140653d8cb2e54c1c\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\bdcd28a220708f27883c1a3f2a493525\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:17:1-46:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\7d49406f3547ce7e767b480711707782\jetified-play-services-measurement-sdk-20.1.2\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\b6603d15fb80863b9b89cf9ed10f97fc\jetified-play-services-measurement-impl-20.1.2\AndroidManifest.xml:17:1-32:12
@@ -172,6 +176,8 @@ MERGED from [:location] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\locat
 		ADDED from C:\Users\S  K  Y\StudioProjects\Tawselaa_app\android\app\src\main\AndroidManifest.xml:5:22-78
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from C:\Users\S  K  Y\StudioProjects\Tawselaa_app\android\app\src\main\AndroidManifest.xml:6:5-77
+MERGED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-77
+MERGED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-77
 	android:name
 		ADDED from C:\Users\S  K  Y\StudioProjects\Tawselaa_app\android\app\src\main\AndroidManifest.xml:6:22-74
 uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
@@ -194,6 +200,10 @@ MERGED from [:google_maps_flutter] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\
 MERGED from [:google_maps_flutter] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\google_maps_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geocoding] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geocoding\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:geocoding] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geocoding\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:location] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:location] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\location\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\04a84e6149302d841409f6a6701bc4d1\multidex-2.0.0\AndroidManifest.xml:20:5-43
@@ -226,10 +236,10 @@ MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\S  K  Y
 MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\8b06b9d2c3e5b93dcf33c17d72bc9474\jetified-firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\b1ec891a435378ce74c8fb9a7505dbd0\jetified-firebase-common-20.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:20.1.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\b1ec891a435378ce74c8fb9a7505dbd0\jetified-firebase-common-20.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\53393b7c2e4d48b9a98f5a2885ec8528\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\53393b7c2e4d48b9a98f5a2885ec8528\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\01fc92f2fd45fc4912dc613752d32303\jetified-play-services-maps-18.0.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\01fc92f2fd45fc4912dc613752d32303\jetified-play-services-maps-18.0.2\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\bcc3a7ba7e221e870da2cf0bd22aca43\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\bcc3a7ba7e221e870da2cf0bd22aca43\jetified-play-services-location-16.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\76b4e711366a212bd004c70187e8a175\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\76b4e711366a212bd004c70187e8a175\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\80af1fbce186e6161c1a0e8ec66a25d9\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
@@ -242,8 +252,8 @@ MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users
 MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\1d3d810eb212e3f3eb7f23810298545f\jetified-firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\61348e29f2396834c1388bd9c78db9af\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\61348e29f2396834c1388bd9c78db9af\jetified-play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\93e9b110ef55e8a754c36e484c265a39\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\93e9b110ef55e8a754c36e484c265a39\jetified-play-services-places-placereport-16.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\6a2d46f1096b7ca140653d8cb2e54c1c\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\6a2d46f1096b7ca140653d8cb2e54c1c\jetified-play-services-places-placereport-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\bdcd28a220708f27883c1a3f2a493525\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\bdcd28a220708f27883c1a3f2a493525\jetified-play-services-measurement-20.1.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\7d49406f3547ce7e767b480711707782\jetified-play-services-measurement-sdk-20.1.2\AndroidManifest.xml:20:5-44
@@ -404,6 +414,16 @@ ADDED from [:firebase_core] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\f
 		ADDED from [:firebase_core] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_core] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+service#com.baseflow.geolocator.GeolocatorLocationService
+ADDED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:geolocator_android] C:\Users\S  K  Y\StudioProjects\Tawselaa_app\build\geolocator_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-77
 meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
 ADDED from [com.google.firebase:firebase-analytics-ktx:20.1.2] C:\Users\S  K  Y\.gradle\caches\transforms-2\files-2.1\e60442ec445fe93a922ceb07009f2fc0\jetified-firebase-analytics-ktx-20.1.2\AndroidManifest.xml:11:13-13:85
 	android:value

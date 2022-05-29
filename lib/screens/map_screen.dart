@@ -21,8 +21,8 @@ class _MapScreenState extends State<MapScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:AppBar(
-        backgroundColor: Colors.orangeAccent,
+        appBar:AppBar(
+          backgroundColor: Colors.orangeAccent,
           actions: [
             Padding(
               padding: const EdgeInsets.all(8.0),
@@ -32,19 +32,19 @@ class _MapScreenState extends State<MapScreen> {
               ),
             ),
           ],
-        title: Center(
-          child: Text(
-            'Tawsela',
-            style: TextStyle(
-              fontSize: 28,
-              color: Colors.black
+          title: Center(
+            child: Text(
+              'Tawsela',
+              style: TextStyle(
+                  fontSize: 28,
+                  color: Colors.black
+              ),
             ),
           ),
         ),
-      ),
 
 
-      body:Map()
+        body:Map()
     );
   }
 }
@@ -77,19 +77,101 @@ class _MapState extends State<Map> {
           markers: _markers,
           onCameraMove: _onCameraMove,
         ),
-        
+
         Positioned(
-        top: 40, 
-          right: 10,
-          child: FloatingActionButton(
-            onPressed: _onAddMarkerPressed,
-            tooltip: "add marker",
-            backgroundColor: Colors.blue,
-            child: Icon(Icons.add_location,
-            color: Colors.white,
+          top: 8.0,
+          right: 15.0,
+          left: 15.0,
+          child: Container(
+            height: 50.0,
+            width: double.infinity,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(3.0),
+              color: Colors.white,
+              boxShadow: [
+                BoxShadow(
+                    color: Colors.grey,
+                    offset: Offset(1.0, 5.0),
+                    blurRadius: 10,
+                    spreadRadius: 3)
+              ],
             ),
-          )
+            child: TextField(
+              cursorColor: Colors.black,
+              // controller: appState.locationController,
+              decoration: InputDecoration(
+                icon: Container(
+                  margin: EdgeInsets.only(left: 20, top: 5),
+                  width: 10,
+                  height: 10,
+                  child: Icon(
+                    Icons.location_on,
+                    color: Colors.black,
+                  ),
+                ),
+                hintText: "pick up",
+                border: InputBorder.none,
+                contentPadding: EdgeInsets.only(left: 15.0, top: 16.0),
+              ),
+            ),
+          ),
         ),
+
+        Positioned(
+          top: 70.0,
+          right: 15.0,
+          left: 15.0,
+          child: Container(
+            height: 50.0,
+            width: double.infinity,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(3.0),
+              color: Colors.white,
+              boxShadow: [
+                BoxShadow(
+                    color: Colors.grey,
+                    offset: Offset(1.0, 5.0),
+                    blurRadius: 10,
+                    spreadRadius: 3)
+              ],
+            ),
+            child: TextField(
+              cursorColor: Colors.black,
+              // controller: appState.destinationController,
+              textInputAction: TextInputAction.go,
+              onSubmitted: (value) {
+                // appState.sendRequest(value);
+              },
+              decoration: InputDecoration(
+                icon: Container(
+                  margin: EdgeInsets.only(left: 20, top: 5),
+                  width: 10,
+                  height: 10,
+                  child: Icon(
+                    Icons.local_taxi,
+                    color: Colors.black,
+                  ),
+                ),
+                hintText: "destination?",
+                border: InputBorder.none,
+                contentPadding: EdgeInsets.only(left: 15.0, top: 16.0),
+              ),
+            ),
+          ),
+        ),
+
+        // Positioned(
+        //     top: 40,
+        //     right: 10,
+        //     child: FloatingActionButton(
+        //       onPressed: _onAddMarkerPressed,
+        //       tooltip: "add marker",
+        //       backgroundColor: Colors.blue,
+        //       child: Icon(Icons.add_location,
+        //         color: Colors.white,
+        //       ),
+        //     )
+        // ),
       ],
     );
   }
@@ -111,8 +193,8 @@ class _MapState extends State<Map> {
       _markers.add(Marker(markerId: MarkerId(_lastPosition.toString()),
         position: _lastPosition,
         infoWindow: InfoWindow(
-          title: "remember here",
-          snippet: "good place"
+            title: "remember here",
+            snippet: "good place"
         ),
         icon: BitmapDescriptor.defaultMarker,
       ));
